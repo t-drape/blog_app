@@ -2,8 +2,7 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.require_master_key = true
-  ENV['RAILS_MASTER_KEY'] = e867e18f1efa79f02f619cda5f060bbf
+  config.require_master_key = false
 
   # Code is not reloaded between requests.
   config.enable_reloading = false
